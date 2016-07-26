@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validating Forms</title>
+	
+	<link rel="stylesheet" type="text/css" href="reset.css">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+	<script src="script.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+<form class="sign-up-form">
+	<div class="header">
+		<h1>New users: Sign up now</h1>
+	</div>
+
+	<div class="section">
+		<h3>CareerBuilder Registration</h3>
+	</div>
+
+	<div class="bullets">
+		<div class="form-wrapper">
+			<ul>
+				<li><input type="radio" class="jobSeeker">a Job Seeker</li>
+				<li><input type="radio" class="employer">an Employer</li>
+				<li><input type="radio" class="staffing">a Staffing Agency Representative</li>
+			</ul>
+		</div>
+		<div class="error submit-error"></div>
+	</div>
+	<!-- ////////////////////////////////////////////////// -->
+
+	<div class="section">
+		<h3>Account Information</h3>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error firstName-error"></div>
+		<label>Your First Name:<input type="text" class="firstName"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error lastName-error"></div>
+		<label>Your Last Name:<input type="text" class="lastName"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error email-error"></div>
+		<label>Email Address:<input type="text" class="email"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error email2-error"></div>
+		<label>Confirm Email Address:<input type="text" class="email2"></label>
+	</div>
+	
+	<div class="form-wrapper">
+		<div class="error password-error"></div>
+		<label>Create Password:<input type="text" class="password"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error password2-error"></div>
+		<label>Confirm Password:<input type="text" class="password2"></label>
+	</div>
+
+<!-- ///////////////////////////////////////////////////// -->
+
+	<div class="section">
+		<h3>Contact Information</h3>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error phone-error"></div>
+		<label>Phone:<input type="text" class="phone"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error address-error"></div>
+		<label>Address:<input type="text" class="address"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error address2-error"></div>
+		<label>Address 2:<input type="text" class="address2"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error country-error"></div>
+		<label>Country:<input type="text" class="country" placeholder="United States"></label>
+	</div>
+	
+	<div class="form-wrapper">
+		<div class="error city-error"></div>
+		<label>City:<input type="text" class="city"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error state-error"></div>
+		<label>State:<input type="text" class="state" placeholder="Select a State"></label>
+	</div>
+
+	<div class="form-wrapper">
+		<div class="error zip-error"></div>
+		<label>Zip:<input type="text" class="zip"></label>
+	</div>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+	color: black;
+}
+.sign-up-form{
+	margin: 2px 400px 200px;
+}
+
+h1, h3{
+	color: #182642;
+	font-size: 2em;
+}
+
+.bullets{
+	display: inline-block;
+}
+
+input{
+	font-size: 24px;
+	margin: 5px;
+}
